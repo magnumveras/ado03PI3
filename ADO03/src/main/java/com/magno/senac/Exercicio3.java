@@ -51,6 +51,7 @@ public class Exercicio3 extends javax.swing.JFrame {
         JLBLValortotal = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         LBLCaneta.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         LBLCaneta.setText("Caneta R$ 5,00");
@@ -239,6 +240,7 @@ public class Exercicio3 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void BTCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTCalcularActionPerformed

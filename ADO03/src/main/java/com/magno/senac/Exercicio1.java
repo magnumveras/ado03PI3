@@ -32,6 +32,9 @@ public class Exercicio1 extends javax.swing.JFrame {
         JLNumero = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Exercício 1");
+        setLocation(new java.awt.Point(0, 0));
+        setResizable(false);
 
         BTIncrementar.setText("Incrementar");
         BTIncrementar.addActionListener(new java.awt.event.ActionListener() {
@@ -60,7 +63,7 @@ public class Exercicio1 extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(170, Short.MAX_VALUE)
+                .addContainerGap(37, Short.MAX_VALUE)
                 .addComponent(JLNumero)
                 .addGap(38, 38, 38)
                 .addComponent(BTIncrementar, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -79,6 +82,7 @@ public class Exercicio1 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void BTIncrementarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTIncrementarActionPerformed

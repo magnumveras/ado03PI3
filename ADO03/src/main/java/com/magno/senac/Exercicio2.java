@@ -34,6 +34,7 @@ public class Exercicio2 extends javax.swing.JFrame {
         CBSexo = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Menu Saudação"));
 
@@ -57,7 +58,7 @@ public class Exercicio2 extends javax.swing.JFrame {
                 .addComponent(JLBsaudacao)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(82, Short.MAX_VALUE)
+                .addContainerGap(74, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(BTSaudacao)
@@ -100,6 +101,7 @@ public class Exercicio2 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void BTSaudacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTSaudacaoActionPerformed
