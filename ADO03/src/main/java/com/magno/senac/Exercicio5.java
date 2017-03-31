@@ -44,6 +44,7 @@ public class Exercicio5 extends javax.swing.JFrame {
         LBLEmpate = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Exercício 5"));
 
@@ -174,6 +175,7 @@ public class Exercicio5 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     public int resultadoUsuario(){
